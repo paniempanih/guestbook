@@ -26,7 +26,7 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton" style="min-width: 11rem;">
                         <li>
-                            <a class="dropdown-item" href="#" onclick="s('#form-logout').submit()">
+                            <a class="dropdown-item" href="#" onclick="$('#form-logout').submit()">
                                     <i class="icon-mid bi bi-box-arrow-left me-2"></i> Logout
                             </a>
 
