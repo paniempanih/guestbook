@@ -20,6 +20,6 @@ class Guest extends Model
 
     public function institution()
     {
-        $this->belongsTo(Institution::class);
+        $this->belongsTo(Institution::class); 
     }
 }

@@ -24,4 +24,7 @@ Route::group([
 
     // guestbook.test/admin/dashboard -> route('admin.dashboard')
     Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
+
+    // Routing CRUD: institution
+    Route::resource('/institution', App\Http\Controllers\InstitutionController::class);
 });
